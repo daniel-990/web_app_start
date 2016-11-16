@@ -1,0 +1,28 @@
+html{}
+body{}
+
+.color-negro{color: black !important;}
+.color-blanco{color: white !important;}
+
+.ancho-50{width: 50% !important;}.ancho-60{width: 60% !important;}
+.ancho-70{width: 70% !important;}.ancho-80{width: 80% !important;}
+.ancho-90{width: 90% !important;}.ancho-100{width: 100% !important;}
+
+.fuente17px{font-size: 17px !important;}
+.fuente30px{font-size: 30px !important;}
+.fuente150px{font-size: 150px !important;}
+
+.relleno-alto100px{padding-top: 100px;}
+.relleno-bajo100px{padding-bottom: 100px;}
+.relleno-alto50px{padding-top: 50px;}
+.relleno-bajo50px{padding-bottom: 50px;}
+.relleno-bajo20px{padding-bottom: 20px;}
+.relleno-alto10px{padding-top: 10px !important;}
+
+.margin-left100px{margin-left: 100px;}
+
+.fondo-naranja{background-color: orange !important;}
+
+@media only screen and (max-width: 993px){
+    
+}

@@ -1,0 +1,15 @@
+<section class="container">
+	<div class="container" ng-repeat="datosPago in vm.dataP">
+		<p>
+			<strong>Número de referencia: </strong>
+			<span class="">{{datosPago.numReferencia}}</span>
+			<br>
+			<strong>Valor total: </strong>
+			<span class="">{{datosPago.valorTotal}} $</span>
+			<br>
+			<strong>Descripción del pago a realizar: </strong>
+			<br><br>{{datosPago.DescripPagRealizar}}
+			<hr>
+		</p>
+	</div>
+</section>
